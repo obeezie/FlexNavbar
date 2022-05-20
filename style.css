@@ -4,6 +4,9 @@
   font-family: roboto;
 }
 
+body {
+  background-color: rgb(203, 248, 248);
+}
 .nav {
   height: 60px;
   background-color: grey;
@@ -42,5 +45,156 @@
   box-shadow: 3px 5px 0px black;
   background-color: lightblue;
   font-size: 19px;
+  align-items: center;
+}
+
+.profilecard {
+  /* max-width: 500px; */
+  /* width: 70%; */
+  height: 350px;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  /* margin: 100px; */
+}
+
+.accent {
+  padding-top: 15px;
+  padding-left: 15px;
+  height: 100px;
+  background-color: teal;
+}
+
+.accent img {
+  width: 100px;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+.profile {
+  padding-bottom: 10px;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: 50px;
+  left: 40px;
+  font-family: cursive;
+}
+
+.location {
+  position: relative;
+  top: 8px;
+}
+
+.location img {
+  position: relative;
+  top: 2px;
+  height: 20px;
+}
+
+.bio {
+  position: relative;
+  top: 25px;
+}
+
+.bio p {
+  font-size: 15px;
+}
+
+.edit {
+  position: relative;
+  top: 25px;
+}
+
+.edit img {
+  position: relative;
+  height: 20px;
+  top: 4px;
+  margin-right: 5px;
+}
+
+.columns {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.connections {
+  color: white;
+
+  /* width: 350px; */
+  background-color: aliceblue;
+  border-style: solid;
+  border-color: black;
+  justify-content: space-between;
+}
+
+.containerleft {
+  max-width: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerright {
+  max-width: 350px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.connection {
+  font-size: 30px;
+  display: flex;
+  /* padding-left: 10px; */
+  height: 75px;
+  background-color: grey;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.connections .accent {
+  /* padding-top: 30px; */
+  background-color: black;
+  height: 50px;
+}
+
+#first {
+  border-color: black;
+  margin-top: 35px;
+  height: auto;
+}
+
+#second {
+  border-color: black;
+  margin-top: 15px;
+}
+
+#title {
+  border-color: black;
+  padding-top: 15px;
+  padding-left: 10px;
+  color: white;
+  height: 40px;
+}
+
+#education {
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  height: auto;
+}
+
+.connections img {
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 50px;
+  border-radius: 50%;
+  justify-content: flex-end;
+}
+
+.info {
+  width: 100%;
+  display: flex;
   align-items: center;
 }
